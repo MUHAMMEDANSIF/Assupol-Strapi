@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registration_pending_emails",
+  "info": {
+    "singularName": "registration-pending-email",
+    "pluralName": "registration-pending-emails",
+    "displayName": "Registration",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "EmailContent": {
+      "type": "richtext",
+      "required": false
+    },
+    "Subject": {
+      "type": "string",
+      "required": false
+    },
+    "pdfName": {
+      "type": "string",
+      "required": false
+    },
+    "Html": {
+      "type": "richtext"
+    },
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "PageFormate": {
+      "type": "string",
+      "required": false
+    },
+    "SMSContent": {
+      "type": "richtext"
+    }
+  }
+}

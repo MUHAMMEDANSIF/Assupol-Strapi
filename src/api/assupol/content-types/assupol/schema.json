@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assupols",
+  "info": {
+    "singularName": "assupol",
+    "pluralName": "assupols",
+    "displayName": "Assupol"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Subject": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payment_approvals",
+  "info": {
+    "singularName": "payment-approval",
+    "pluralName": "payment-approvals",
+    "displayName": "Payment Approval SMS",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assupol_emails",
+  "info": {
+    "singularName": "assupol-email",
+    "pluralName": "assupol-emails",
+    "displayName": "Assupol-Email"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subject": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

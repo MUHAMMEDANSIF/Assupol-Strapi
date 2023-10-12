@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assupol_sms_engines",
+  "info": {
+    "singularName": "assupol-sms-engine",
+    "pluralName": "assupol-sms-engines",
+    "displayName": "Assupol-Sms-Engine"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
